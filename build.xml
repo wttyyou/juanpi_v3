@@ -11,7 +11,7 @@
 <property name="distfile" value="dist/${tarfile}" />
 <property name="tests.dir" value="tests" />
 ####程序的目录（根据实际情况更改）
-<fileset id="ceshi.tar.gz" dir=".">
+<fileset id="api.tar.gz" dir=".">
 <include name="tests/"/>
 <include name="assets/"/>
 <include name="js/"/>
@@ -77,7 +77,7 @@
 <echo msg="Creating distribution tar for ${phing.project.name} ${version}"/>
 <delete file="${distfile}" failonerror="false"/>
 <tar destfile="${distfile}" compression="gzip">
-<fileset refid="ceshi.tar.gz"/>
+<fileset refid="api.tar.gz"/>
 </tar>
 </target>
 </project>
