@@ -1,10 +1,10 @@
 <?php
 class DemoTest extends PHPUnit_Framework_TestCase {
   public function testPass() {
-      $this->assertTrue(true);
+      $this->assertTrue(true);edd
     }
   public function testFail() {
-      $this->assertFalse(false);
+      $this->assertFalse(false);qwew123
     }
 }
 ?>
