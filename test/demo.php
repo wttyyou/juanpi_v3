@@ -4,7 +4,7 @@ class Demo extends PHPUnit_Framework_TestCase {
       echo('dfdfdf');
     }
   public function test2() {
-      exit;
+      exit;223231dsadsafsf
     }
 }
 ?>
